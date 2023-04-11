@@ -20,7 +20,7 @@ borsh = "=0.9.3"
 byteorder = "1.4.3"
 primitive-types = { version = "0.9.0", default-features = false }
 sha3 = "0.9.1"
-solana-program = "=1.10.31"
+solana-program="1.9.22"
 wormhole-bridge-solana = { path = "../program", features = ["no-entrypoint"] }
 solitaire = { path = "../../solitaire/program" }
 

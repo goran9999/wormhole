@@ -22,7 +22,7 @@ byteorder = "1.4.3"
 rocksalt = { path = "../solitaire/rocksalt" }
 solitaire = { path = "../solitaire/program" }
 sha3 = "0.9.1"
-solana-program = "*"
+solana-program="1.9.22"
 spl-token = { version = "=3.3.0", features = ["no-entrypoint"] }
 wasm-bindgen = { version = "0.2.74", features = ["serde-serialize"], optional = true }
 serde = { version = "1.0", features = ["derive"] }
