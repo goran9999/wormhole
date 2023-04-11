@@ -44,7 +44,7 @@ fn verify_governance<T>(vaa: &PayloadMessage<T>) -> Result<()>
 where
     T: DeserializePayload,
 {
-    let expected_emitter = std::env!("EMITTER_ADDRESS");
+    let expected_emitter = "";
     let current_emitter = format!("{}", Pubkey::new_from_array(vaa.meta().emitter_address));
     if expected_emitter != current_emitter || vaa.meta().emitter_chain != CHAIN_ID_GOVERANCE {
         Err(InvalidGovernanceKey.into())
